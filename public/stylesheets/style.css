@@ -1,0 +1,270 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+.main{
+  min-height: 100%;
+  width: 100%;
+  background-color:#06081D;
+  display: flex;
+  /* #1B187F */
+}
+.left{
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(#06081D,#4E1097,#1A1476);
+
+}
+.left>.card{
+  height: 300px;
+  width: 80%;
+  background-color:transparent;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 20px; */
+}
+#frame{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 5px;
+ 
+}
+.left #userimg{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  
+}
+.left h2{
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 3px;
+}
+.left h4{
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+.left ul{
+  width: 100%;
+  text-align: center;
+}
+.left li{
+  list-style-type: none;
+  padding: 10px;
+  margin-bottom: 2px;
+ 
+}
+.left li:hover{
+  background: linear-gradient(to right,#4E1097,#1A1476);
+  /* background-color: red; */
+  cursor: pointer;
+  box-shadow: 1px 1px 15px #0f0f0fd7;
+}
+
+
+.right{
+  height: 100%;
+  width: 80%;
+  padding: 0px 50px;
+
+  
+}
+.right .nav{
+  height: 50px;
+  width: 100%;
+  background-color: transparent ;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  /* padding-right: 20px; */
+  
+}
+.right #image{
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  overflow: hidden;
+
+}
+.right .navitem{
+  display: flex;
+  width: 15%;
+  align-items: center ;
+  justify-content: space-between ;
+}
+.right #userimgg{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  
+}
+.right button{
+  padding: 8px 12px;
+  background: linear-gradient(to right,#09C4F0,#035DB9);
+  border: none;
+  text-transform: capitalize;
+  border-radius: 4px;
+}
+.right .header{
+  height: 70px;
+  width: 100%;
+  /* background-color: red; */
+  padding: 5px 10px;
+}
+.header h1{
+  font-size: 15px;
+  color: #dadada;
+  margin-bottom: 5px;
+  
+}
+.header h4{
+  font-weight: 300;
+  font-size: 12px;
+}
+.right .form {
+  height: fit-content;
+  margin-left: 5%;
+  width: 90%;
+  padding: 20px ;
+
+}
+.right .imginp{
+  width: 90%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+
+}
+.right .imin{
+  height: 200px;
+  width: 150px;
+  background-color: black;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right .imginp input{
+  padding: 7px 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+ #file-upload-button{
+  background: linear-gradient(to right,#09C4F0,#035DB9);
+
+}
+.imin img{
+  width: 50%;
+  margin: 10px;
+  
+  object-fit: cover;
+  object-position: center;
+  filter: invert();
+}
+.imginp input::file-selector-button {
+  background: linear-gradient(to right,#09C4F0,#035DB9);
+  padding: 5px 10px ;
+  border-radius: 5px;
+  color: #fff;
+}
+.right form{
+  margin-top: 20px;
+}
+.right .form1{
+  display: flex;
+
+  grid-template-columns: repeat(4,1fr);
+  width: 10%;
+ 
+  
+}
+/* .form2 input,select,option{
+  padding: 5px 10px;
+  margin: 10px;
+  background-color: transparent;
+  outline-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+.form1 option{
+  color: #000;
+}
+right .form2 .sale{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 10%;
+  
+}
+.form2 h2{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+} */
+.right .form2{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 20px;
+
+}
+.form2 input,select,option{
+  padding: 5px 10px;
+  margin: 10px;
+  background-color: transparent;
+  outline-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+#submit{
+  margin-top: 20px;
+
+}
+
+.right .heading{
+  width: 90%;
+  height: 60px;
+  background-color: #09C4F0;
+  align-items: center;
+margin-bottom: 10px;  
+background: linear-gradient(to right,#4E1097,#1A1476);
+
+  
+}
+.heading:hover{
+background: linear-gradient(to right,#6c39a7,#170ad2);
+  
+}
+.heading ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  height: 100%;
+  align-items:center ;
+  
+}
+.heading a{
+  position: relative;
+  left: 95%;
+  top: -30px;
+}

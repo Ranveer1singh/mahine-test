@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=PT+Sans&family=Rubik:wght@500&family=Ubuntu:ital@1&family=Urbanist:wght@600;700&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="left">
+        <div class="card">
+          <div id="frame">
+            <img
+              id="userimg"
+              src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+          </div>
+          <h2>User name</h2>
+          <h4>company</h4>
+        </div>
+        <ul>
+          <li>Dashboard</li>
+          <li>User Management</li>
+          <li>Master Settings</li>
+          <li>Website</li>
+          <li>Application job post</li>
+          <li>LMS Management</li>
+          <li>Product Management</li>
+          <li>Blog Management</li>
+          <li>Sales Request</li>
+          <li>CRM</li>
+          <li>Report Management</li>
+          <li>ERP LMS</li>
+        </ul>
+      </div>
+      <div class="right">
+        <div class="nav">
+          <div class="navitem">
+            <i class="ri-chat-2-line"></i>
+            <i class="ri-notification-2-line"></i>
+            <div id="image">
+              <img
+                id="userimgg"
+                src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </div>
+
+            <button>logout</button>
+          </div>
+        </div>
+        <div class="header">
+          <h1>Add User</h1>
+          <h4>Dashboard > User Management</h4>
+        </div>
+        <div class="form1">
+          <form action="/users1" method="post" class="row g-3">
+            <div class="imginp">
+            <div class="imin">
+              <img
+                src="https://imgs.search.brave.com/jvExz8cTGdrEGAVSp7P7zZ6zkYi62Uc3qRPwtdOvdzw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudGhlbm91bnBy/b2plY3QuY29tL3Bu/Zy81MTkxNDUyLTIw/MC5wbmc"
+                alt=""
+              />
+            </div>
+            <input type="file" />
+          </div>
+          <div class="form2">
+            <div class="col-md-6">
+              <label for="inputname" class="form-label">FULL NAME</label>
+              <input type="text" class="form-control" id="inputname" name="name">
+            </div>
+
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" name="email">
+            </div>
+            
+            <div class="col-12">
+              <label for="mobile" class="form-label">mobile NO.</label>
+              <input type="text" class="form-control" id="mobile" placeholder="123456789" name="number">
+            </div>
+          </div>
+            <div class="form2">
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address </label>
+            <input type="text" name="Address" class="form-control" id="inputAddress" placeholder="Apartment, studio, or floor">
+          </div>
+
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" name="city"class="form-control" id="inputCity">
+          </div>
+
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" name="state" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+        </div>
+        <div class="form2">
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" name="zip" class="form-control" id="inputZip">
+          </div>
+
+          
+        </div>
+        <div id="submit" class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

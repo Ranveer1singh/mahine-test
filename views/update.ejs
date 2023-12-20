@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/updateuser/<%=results[0].id%>" method="post">
+        <input type="text" name="name" value="<%= results[0].name%>">
+        <input type="text" name="email" value="<%= results[0].email%>">
+        <input type="text" name="Address" value="<%= results[0].Address%>">
+        <input type="number" name="number" value="<%= results[0].number%>">
+        <input type="submit">
+    </form>
+</body>
+</html>
